@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbNhapA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số A:" />
+
+    <EditText
+        android:id="@+id/txtNhapA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/lbNhapB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số B:" />
+
+    <EditText
+        android:id="@+id/txtNhapB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/lbNhapC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số C:" />
+
+    <EditText
+        android:id="@+id/txtNhapC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/lbKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:text="KẾT QUẢ"
+        android:textColor="#1B1A1A"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnKiemTra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiểm tra" />
+</LinearLayout>
